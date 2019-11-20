@@ -14,10 +14,25 @@
 */
 
 /* Table Styles */
+table{
+   width: 100%;
+   border: outset 15px;
+   color: rgb(151, 151, 151);
+   border-collapse: collapse;
+   font-family: arial,verdana,sans-serif;
+}
 
+th td{
+   border: solid 1px grey;
+   align-content: top;
+   padding: 5px;
+}
 
 
 /* Table Caption Styles */
+caption{
+   align-items: center;
+}
 
 
 
